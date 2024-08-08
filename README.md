@@ -18,16 +18,16 @@
 
 <div align="center">
   <a href="https://t.me/Evgenij_Veter">
-    <img src="https://img.shields.io/badge/telegram-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white" />
+    <img src="https://img.shields.io/badge/telegram-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white">
   </a>  
   <a href="mailto:dev.hemulll@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
+    <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red">
   </a>
   <a href="#">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
   <a href="#">
-     <img src="https://img.shields.io/badge/Portfolio-003648?style=for-the-badge&logo=codementor&logoColor=white" /> <!-- sqlite, safari, google-chrome are other good icon options -->
+     <img src="https://img.shields.io/badge/Portfolio-003648?style=for-the-badge&logo=codementor&logoColor=white">
   </a>
 </div>
 
@@ -50,7 +50,11 @@
 <div align="center">
   <h2>🐍 My Contributions 🐍</h2>
   <br>
-  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/dev-hemul/dev-hemul/output/github-contribution-grid-snake.svg" />
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dist/snake.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="dist/snake.svg" />
+  <img alt="github-snake" src="dist/snake.svg" />
+</picture>
 
 <br/><br/><br/>
 </div>
