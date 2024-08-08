@@ -17,11 +17,15 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           svg_out_path: dist/snake.svg
 
-      - name: Push Snake
-        uses: EndBug/add-and-commit@v9
-        with:
-          message: "Update snake.svg"
-          add: dist/snake.svg
-          push_args: --force
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+
+      - name: Commit and Push
+        run: |
+          git add dist/snake.svg
+          git commit -m "Update snake.svg"
+          git push
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT }}
