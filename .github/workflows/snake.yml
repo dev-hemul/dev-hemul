@@ -20,5 +20,8 @@ jobs:
       - name: Push Snake
         uses: EndBug/add-and-commit@v9
         with:
-          default_author: github_actor
+          message: "Update snake.svg"
           add: dist/snake.svg
+          push_args: --force
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}
