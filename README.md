@@ -50,12 +50,7 @@
 <div align="center">
   <h2>🐍 My Contributions 🐍</h2>
   <br>
-  <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dist/snake.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="dist/snake.svg" />
-  <img alt="github-snake" src="dist/snake.svg" />
-</picture>
-
+  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/dev-hemul/dev-hemul/output/github-contribution-grid-snake.svg" />
 <br/><br/><br/>
 </div>
 
