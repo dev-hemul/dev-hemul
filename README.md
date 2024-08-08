@@ -17,29 +17,33 @@
  </div>
  
 <div align="center"> 
-  <a href="mailto:dev.hemulll@gmail.com">
+  <a href="mailto:dev.hemulll@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
   </a>
   <a href="https://t.me/Evgenij_Veter" target="_blank">
-    <img src="https://img.shields.io/badge/telegram-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white" target="_blank" />
+    <img src="https://img.shields.io/badge/telegram-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white" />
   </a>  
-  <a href="https://www.linkedin.com/in/%D0%B5%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9-%D0%BD%D0%B5%D1%87%D1%83%D0%B9-%D0%B2%D0%B5%D1%82%D0%B5%D1%80-5b8a71117/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
+  <a href="#" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="#" target="_blank">
-     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" target="_blank" /> <!-- sqlite, safari, google-chrome are other good icon options -->
+     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" /> <!-- sqlite, safari, google-chrome are other good icon options -->
   </a>
 </div>
 
  <hr/>
  
-<h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
+<h2 align="center">⚒️ Languages-Frameworks ⚒️</h2>
 <br/>
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=react,bootstrap,mui,html,css,vscode,github,figma,tailwind,git,r" />
-    <img src="https://skillicons.dev/icons?i=nodejs,python,javascript,typescript,express,firebase,mongodb,c,java,nextjs,mysql,flask" /><br>
+    <img src="https://skillicons.dev/icons?i=html,css,svg,sass,bootstrap,tailwind,gulp,javascript,typescript,react,redux,nodejs,express,firebase,mongodb,nextjs,electron,jest" />
 </div>
+<hr/>
 
+<h2 align="center">⚒️ Tools ⚒️</h2>
+<div align="center">
+    <img src="https://skillicons.dev/icons?i=webstorm,vscode,sublime,codepen,babel,docker,github,git,figma,md,npm,yarn,ps,postman,pug,vercel,vite,webpack" /><br>
+</div>
 <br/>
 <hr/>
 
@@ -56,20 +60,11 @@
 <h2 align="center">⚡ Stats ⚡</h2>
 <br>
 <div align=center>
-  <img width=390 src="https://github-readme-streak-stats-salesp07.vercel.app/?user=salesp07&count_private=true&theme=react&border_radius=10" alt="streak stats"/>
-  <img width=390 src="https://github-readme-stats-salesp07.vercel.app/api?username=salesp07&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="readme stats" />
+  <img width=390 src="https://github-readme-streak-stats-salesp07.vercel.app/?user=dev-hemul&count_private=true&theme=react&border_radius=10" alt="streak stats"/>
   <br/>
-  <img width=325 align="center" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=salesp07&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" />
+  <br/>
+  <img width=325 align="center" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=dev-hemul&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" />
 </div>
+<br>
 
-<br/><br/>
 
-<hr/>
-
-<br/>
-
-<div align="center">
-<a href='https://ko-fi.com/V7V4RAK9C' target='_blank'><img height='64' style='border:0px;height:64px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
-</div>
-
-<br/>
