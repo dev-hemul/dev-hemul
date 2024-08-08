@@ -2,37 +2,22 @@ name: Generate Snake
 
 on:
   schedule:
-    # Периодический запуск workflow (ежедневно в 00:00 UTC)
     - cron: "0 0 * * *"
   workflow_dispatch:
-  
+
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout the repository
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
+      - uses: Platane/snk@master
+        id: generate
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/snake.svg
 
-      - name: Generate Snake Animation
-        uses: Platane/snk@v2
+      - name: Push Snake
+        uses: EndBug/add-and-commit@v7
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          # размер grid и длительность
-          grid_size: 100x100
-          time: 60
-      
-      - name: Generate GitHub contribution graph
-        uses: Platane/snk@v2
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          svg_out_path: dist/github-snake.svg
-          output: dist/snake.svg
-          
-      - name: Commit and push
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -A
-          git commit -m 'Generate Snake Animation'
-          git push
+          default_author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
+          add: dist/snake.svg
