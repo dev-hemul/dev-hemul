@@ -20,9 +20,6 @@
   <a href="mailto:dev.hemulll@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
   </a>
-    <a href="https://t.me/Evgenij_Veter" target="_blank">
-    <img src="https://img.shields.io/badge/telegram-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white" target="_blank" />
-  </a>
   <a href="https://www.linkedin.com/in/%D0%B5%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9-%D0%BD%D0%B5%D1%87%D1%83%D0%B9-%D0%B2%D0%B5%D1%82%D0%B5%D1%80-5b8a71117/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
   </a>
