@@ -24,4 +24,4 @@ jobs:
           add: dist/snake.svg
           push_args: --force
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
